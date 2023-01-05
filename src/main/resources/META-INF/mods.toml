@@ -21,16 +21,11 @@ Focusing on modded material used on both sides in a balanced way, as to bring Ti
 Currently in Alpha 0.0.1-1.18.2
 '''
 
-[[dependencies.tinkers_tetra]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[40,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+[[dependencies.tinkers_tetra]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
 [[dependencies.tinkers_tetra]]
